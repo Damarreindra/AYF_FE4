@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,500,600,700");
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #31C6D4;
+    font-family: 'Raleway', YuGothic;
+    color: white;
+}
+
+article{
+   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+article>p{
+    margin-bottom: 50px;
+}
+
+form{
+    width: 450px;
+    /* background-color: aliceblue; */
+}
+form>input{
+    background-color: white;
+    width: 450px;
+    height: 30px;
+    border-radius: 10px;
+    border-style: none;
+    margin-bottom: 10px;
+    text-align: center;
+    color: black;
+}
+form>button{
+    border-radius: 10px;
+    height: 30px;
+    border: 0;
+    width: 120px;
+    background-color: #00FFD1;
+    color: black;
+    font-weight: 700;
+}
+
+.container{
+   margin-top: 20px;
+   text-align: center;
+}
+
+
